@@ -11,8 +11,8 @@ const HomePage = () => {
     <>
     <MetaData title="Pushpendra's Portfolio" />
     <div>
-      <section className="h-[100vh] w-[100vw] flex flex-col justify-center items-center ">
-        <h1 className="text-[5rem] font-kanit " >Hey, I&apos;m Pushpendra ;) </h1>
+      <section className="h-[100vh] w-[100vw] px-4 flex flex-col justify-center items-center ">
+        <h1 className="text-[3rem] sm:text-[5rem] sm:text-center font-kanit " >Hey, I&apos;m Pushpendra ;) </h1>
         <p className="mt-[1rem]">I&apos;m a software engineer with my passion in creating products and making scalable solutions</p>
         <div className="mt-[4rem] flex gap-[2rem] " >
           <a href="https://twitter.com/PushpendraPal_" target="_blank" rel="noopener noreferrer"><FaTwitter size={30} /></a>
